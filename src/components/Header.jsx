@@ -1,15 +1,17 @@
+import React from 'react'
+
 function Header() {
   return (
-    <header>
+    <header id="header">
       <h1>
-        Say hello to <br />
+        Say hello to <br/>
         ReactJS
       </h1>
       <p>
-        You will learn how to use the most popular frontend library, and become
+        You will learn how to use <br/>the most popular frontend library, <br/>and become
         a super Ninja devoloper.
       </p>
-      <button>Awseome!</button> 
+      <button id="button">Awseome!</button> 
     </header>
   );
 }
